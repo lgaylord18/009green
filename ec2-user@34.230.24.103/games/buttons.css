@@ -1,0 +1,48 @@
+#buttons {
+  margin-top: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.button-container {
+  font-family: 'Abel', sans-serif;
+  height: 200px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #ccc;
+  display: inline-block;
+  width: 33%;
+  border-radius: 10px;
+  font-size: 35px;
+}
+
+.button-container .header {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: inline-block;
+  font-size: 20px;
+  width: 50px;
+  background-color: #1e7b3c;
+  color: white;
+  padding: 4px 6px;
+  z-index: 1 !important;
+  position: relative;
+  top: -1px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#buttons .slide-up {
+  z-index: 0;
+  margin-left: -10px;
+  text-indent: 20px !important;
+  background-color: #eee;
+  color: black;
+}
+
+#buttons .slide-up:focus {
+  text-indent: 20px !important;
+  background-color: #fff;
+}

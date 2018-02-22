@@ -1,0 +1,142 @@
+body {
+    background-color: rgba(50,50,50,1);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*#logo {
+  margin: 0 auto;
+  height: 260px;
+  display: block;
+  padding: 50px 0px 150px 0px;
+}*/
+
+#logo {
+  margin: 0 auto;
+  width: 100vw;
+  height: auto;
+}
+#section1 {
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+    /*width: 100vw;*/
+    /*height: calc(100px);*/
+    background-color: rgba(50,50,50,1);
+    /*background-color: rgba(30,123,60,1);*/
+    /*height: 100vh;*/
+}
+
+.container {
+  /*margin: 0 auto;*/
+  /*width: 1136px;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*position: absolute;*/
+  /*height: 100%;*/
+}
+
+.button {
+  height: 80px;
+  width: 150px;
+  background-color: #eee;
+  margin: 20px 10px;
+  text-align: center;
+  /*vertical-align: middle;*/
+  /*border: 2px solid green;*/
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+  transition: .2s all;
+  vertical-align: middle;
+  text-decoration: none;
+  /*border: 5px solid rgba(255,255,255,0.8);*/
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,1);
+  margin-top: 15px;
+  /*margin-top: 60px;*/
+  /*background-color: rgba(30, 123, 60, 1);*/
+}
+
+/*.button i {
+  margin-top: 10px;
+  color: #eee;
+}*/
+
+.shown {
+    opacity: 1 !important;
+    top: 15% !important;
+    visibility: visible !important;
+}
+
+.on {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+#dimmer {
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    visibility: collapse;
+    background-color: rgba(0,0,0,0.6);
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: .2s all;
+}
+
+.popup {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 70vh;
+    max-width: 70vw;
+    top: 20%;
+    background-color:white;
+    opacity: 0;
+    transition: .2s all;
+    visibility: collapse;
+    border-radius: 5px;
+}
+
+#popup-inner {
+    width: 90%;
+}
+
+#team {
+    width: 60vw;
+    height: 60vh;
+    text-align: center;
+    padding: 30px;
+}
+
+#team h1 {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(0,0,0,0.8);
+}
+
+#team #members .col {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#team .member {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#team .member span {
+    font-size: 10px;
+    color: rgba(0,0,0,0.6);
+    margin-left: 5px;
+}
